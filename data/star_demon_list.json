@@ -1,0 +1,180 @@
+{
+ "built": "2026-11-13",
+ "rule": "stars (top 1-2, 30+ min), first Demon beats same-height by 5+ per 100 in both history halves, 15+ lines each",
+ "stars": [
+  {
+   "name": "Kawhi Leonard",
+   "norm": "kawhi leonard",
+   "older": {
+    "won": 13,
+    "lines": 17,
+    "normal": 42
+   },
+   "newer": {
+    "won": 11,
+    "lines": 16,
+    "normal": 35
+   },
+   "real": {
+    "won": 0,
+    "lines": 0
+   },
+   "edge": 33.9,
+   "stats": {},
+   "best_stat": null
+  },
+  {
+   "name": "Deni Avdija",
+   "norm": "deni avdija",
+   "older": {
+    "won": 17,
+    "lines": 27,
+    "normal": 40
+   },
+   "newer": {
+    "won": 18,
+    "lines": 30,
+    "normal": 35
+   },
+   "real": {
+    "won": 12,
+    "lines": 24
+   },
+   "edge": 24.0,
+   "stats": {
+    "rebounds": {
+     "won": 5,
+     "lines": 11,
+     "normal": 34
+    },
+    "assists": {
+     "won": 8,
+     "lines": 15,
+     "normal": 30
+    },
+    "points+rebounds": {
+     "won": 8,
+     "lines": 10,
+     "normal": 45
+    }
+   },
+   "best_stat": "points+rebounds"
+  },
+  {
+   "name": "Jalen Brunson",
+   "norm": "jalen brunson",
+   "older": {
+    "won": 12,
+    "lines": 24,
+    "normal": 40
+   },
+   "newer": {
+    "won": 13,
+    "lines": 24,
+    "normal": 39
+   },
+   "real": {
+    "won": 8,
+    "lines": 16
+   },
+   "edge": 12.7,
+   "stats": {
+    "points": {
+     "won": 5,
+     "lines": 9,
+     "normal": 43
+    },
+    "assists": {
+     "won": 2,
+     "lines": 11,
+     "normal": 31
+    },
+    "points+rebounds+assists": {
+     "won": 9,
+     "lines": 11,
+     "normal": 43
+    }
+   },
+   "best_stat": "points+rebounds+assists"
+  },
+  {
+   "name": "Donovan Mitchell",
+   "norm": "donovan mitchell",
+   "older": {
+    "won": 19,
+    "lines": 34,
+    "normal": 41
+   },
+   "newer": {
+    "won": 15,
+    "lines": 31,
+    "normal": 38
+   },
+   "real": {
+    "won": 10,
+    "lines": 23
+   },
+   "edge": 12.6,
+   "stats": {
+    "rebounds": {
+     "won": 4,
+     "lines": 9,
+     "normal": 34
+    },
+    "assists": {
+     "won": 2,
+     "lines": 10,
+     "normal": 31
+    },
+    "points+rebounds+assists": {
+     "won": 12,
+     "lines": 18,
+     "normal": 43
+    },
+    "points+rebounds": {
+     "won": 5,
+     "lines": 11,
+     "normal": 46
+    },
+    "points+assists": {
+     "won": 7,
+     "lines": 10,
+     "normal": 41
+    }
+   },
+   "best_stat": "points+assists"
+  },
+  {
+   "name": "Kevin Durant",
+   "norm": "kevin durant",
+   "older": {
+    "won": 13,
+    "lines": 27,
+    "normal": 40
+   },
+   "newer": {
+    "won": 7,
+    "lines": 15,
+    "normal": 37
+   },
+   "real": {
+    "won": 10,
+    "lines": 17
+   },
+   "edge": 8.9,
+   "stats": {
+    "rebounds": {
+     "won": 1,
+     "lines": 8,
+     "normal": 34
+    },
+    "points+rebounds+assists": {
+     "won": 6,
+     "lines": 8,
+     "normal": 43
+    }
+   },
+   "best_stat": "points+rebounds+assists"
+  }
+ ]
+}

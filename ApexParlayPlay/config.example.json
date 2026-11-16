@@ -1,0 +1,7 @@
+{
+  "webhooks": {
+    "pp-picks": "https://discord.com/api/webhooks/000/placeholder",
+    "pp-slips": "https://discord.com/api/webhooks/000/placeholder",
+    "pp-systems": "https://discord.com/api/webhooks/000/placeholder"
+  }
+}

@@ -1,0 +1,9 @@
+requests
+discord.py
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+openpyxl
+playwright

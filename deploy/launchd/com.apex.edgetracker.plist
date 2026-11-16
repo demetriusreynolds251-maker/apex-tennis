@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key><string>com.apex.edgetracker</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>-c</string>
+        <string>import subprocess,sys; sys.exit(subprocess.call(['/bin/zsh','/path/to/home/openclaw_jobs/apex_edge_tracker_daily.sh']))</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict><key>Hour</key><integer>6</integer><key>Minute</key><integer>40</integer></dict>
+    <key>WorkingDirectory</key><string>/path/to/home/openclaw_jobs</string>
+    <key>StandardOutPath</key><string>/path/to/home/openclaw_jobs/launchd.log</string>
+    <key>StandardErrorPath</key><string>/path/to/home/openclaw_jobs/launchd.log</string>
+</dict>
+</plist>

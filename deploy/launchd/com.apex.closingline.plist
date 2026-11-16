@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apex.closingline</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/python3</string>
+		<string>-c</string>
+		<string>import subprocess,sys; sys.exit(subprocess.call(['/bin/zsh','/path/to/home/openclaw_jobs/apex_closing_line.sh']))</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>/path/to/home/openclaw_jobs/closingline_launchd.log</string>
+	<key>StandardOutPath</key>
+	<string>/path/to/home/openclaw_jobs/closingline_launchd.log</string>
+	<key>StartInterval</key>
+	<integer>900</integer>
+	<key>WorkingDirectory</key>
+	<string>/path/to/home/openclaw_jobs</string>
+</dict>
+</plist>
